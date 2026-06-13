@@ -35,8 +35,7 @@ def pre_processing_pipeline(X_train_data,X_test_data,y_train_data,y_test_data):
 
     print("Classification  Report")
     print(classification_report(y_test_data,y_pred_data))
-    print("Predictions:")
-    print(y_pred_data)
+
 
 
 
