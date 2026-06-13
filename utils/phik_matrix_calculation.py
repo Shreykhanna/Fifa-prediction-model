@@ -2,6 +2,7 @@ from phik.report import plot_correlation_matrix
 from fifa_predictions.utils.filter_fifa_dataset import filter_fifa_dataset
 from matplotlib import pyplot as plt
 import numpy as np
+
 def phik_matrix_calculation(fifa_dataset):
     numeric_features = fifa_dataset.select_dtypes(include=[np.number]).columns.tolist()
     phik_matrix = fifa_dataset.phik_matrix(interval_cols = numeric_features)
