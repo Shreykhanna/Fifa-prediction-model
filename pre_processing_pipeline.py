@@ -1,8 +1,6 @@
-from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
-from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 from sklearn.impute import SimpleImputer
 from sklearn.ensemble import RandomForestClassifier

@@ -1,5 +1,5 @@
 from phik.report import plot_correlation_matrix
-from filter_fifa_dataset import filter_fifa_dataset
+from fifa_predictions.filter_fifa_dataset import filter_fifa_dataset
 from matplotlib import pyplot as plt
 import numpy as np
 def phik_matrix_calculation(fifa_dataset):
